@@ -1,0 +1,267 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{}
+.breadcumb {
+	overflow: hidden;
+	background-image: url("../images/back.PNG");
+	background-size: cover;
+	height: 300px;
+	background-color: gray;
+	background-position: center;
+	background-attachment: fixed;
+}
+.breadcumb h3 {
+	background-color: teal;
+	color: white;
+	font-size: 40px;
+	padding: 10px 0;
+	display: block;
+	width: 250px;
+	text-align: center;
+	margin: 120px auto;
+	border-radius: 3px; 
+}
+.page {
+	overflow: hidden;
+	margin: 30px 0;
+}
+.single-page {
+	float: left;
+	width: 320px;
+	margin-right: 20px;
+	text-align: center;
+}
+.single-page h4{
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+}
+.single-page img{
+	width: 100%;
+}
+.single-page:last-child{
+	margin-right: 0px;
+}
+.boundary{
+	width: 1000px;
+	margin: 0px auto;
+}
+.header {
+	background-color: #DDDDDD;
+	overflow: hidden;
+	padding: 0px 20px;
+}
+.logo {
+	float: left;
+	width: 290px;
+}
+.logo a{}
+.logo a img{}
+.mainmenu {
+	float: right;
+	width: 670px;
+	margin-top: 20px;
+}
+.mainmenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right ;
+}
+.mainmenu ul li {
+	display: inline-block;
+}
+.mainmenu ul li a {
+	color: #333;
+	text-decoration: navajowhite;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 20px;
+	display: block;
+}
+.mainmenu ul li a:hover {
+	color: red;
+	background-color: green;
+	font-size: 30px;
+}
+.banner{
+	overflow: hidden;
+}
+.banner img{
+	width: 99%;
+    border: 5px solid black;
+}
+.services{
+	overflow: hidden;
+}
+.single_sevice{
+	float: left;
+	width: 280px;
+	background-color: #3399FF;
+	padding: 20px;
+	margin-right:20px;
+	margin-top: 20px;
+	text-align: left;
+}
+.single_sevice h4{
+	background-color: #008080;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 0;
+}
+.single_sevice img{
+	width: 100%;
+}
+.single_sevice p{
+	text-align: left;
+	margin: 10px;
+	color: #fff;
+}
+.single_sevice:last-child {
+    margin-right: 0px;
+}
+.single_sevice a{
+	background-color: #008080;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+}
+.single_sevice a:hover {
+	background-color: #3399FF;
+}
+.aboute_area{
+	overflow: hidden;
+	margin: 30px 0;
+}
+.aboute_left{
+	float: left;
+	width: 700px;
+	margin-right: 20px;
+}
+.aboute_left img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.aboute_left h4, .contact_form h4, .contact_address h4{
+	text-align: center;
+	background-color: #008080;
+	color: white;
+	font-size: 25px;
+	padding: 10px 0;
+}
+.aboute_left p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.aboute_left a{
+	background-color: #008080;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+}
+.aboute_left a:hover {
+	background-color: #3399FF;
+}
+.about_menu{
+	float: right;
+	width: 280px;
+}
+.about_menu h4{
+	text-align: center;
+	background-color: #008080;
+	color: white;
+	font-size: 25px;
+	padding: 10px 0;
+}
+.about_menu ul{
+	list-style: none;
+}
+.about_menu ul li{
+	border-bottom: 1px solid gray;
+	padding: 3px 0;
+	background-image: url("../images/arrow.png");
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	background-position: 0px 7px;
+}
+.about_menu ul li a{
+	color: black;
+	text-decoration: none;
+	display: black;
+	padding: 5px 0;
+	font-weight: bold;
+	
+}
+.contact_area {
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+.contact_form {
+    float: left;
+    width: 700px;
+    margin-right: 20px;    ,: 20px;
+    margin-right: 20px;
+    margin-right: 20p;
+    margin-right: 20;
+    margin-right: 20px;
+}
+
+.contact_address {
+    float: right;
+    width: 280px;
+}
+
+.map {
+    width: 100%;
+    overflow: hidden;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.contact_form input, .contact_form textarea {
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.contact_form input[type="submit"] {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact_address ul {
+    list-style: none;
+}
+
+.contact_address ul li span {
+    font-weight: bold;
+}
+
+.contact_address ul li {
+    margin: 5px 0;
+    border-bottom: 1px solid;
+    padding: 5px 0;
+}
+.footer{
+	overflow: hidden;
+	text-align: center;
+	background-color: #DDDDDD;
+	color: white;
+	padding: 20px 0;
+	font-size: 18px;
+	
+}
+.footer p{}
